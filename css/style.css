@@ -2,6 +2,36 @@
   box-sizing: border-box;
 }
 
+body {
+  display: inline-block;
+  width: 100%;
+}
+
 article {
+  float: left;
   width: 30%;
+  border: 1px solid lightblue;
+}
+
+h2 {
+  border: 1px dotted lightgrey;
+  text-align: center;
+}
+
+section img {
+  width: 70%;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+section img + p {
+  margin: 1em;
+  text-align: justify;
+}
+
+h4 ~ p {
+  font-weight: bold;
 }
