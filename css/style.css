@@ -5,6 +5,8 @@
 body {
   display: inline-block;
   width: 100%;
+  margin: 1em;
+  padding: 1em;
 }
 
 article {
@@ -12,6 +14,7 @@ article {
   width: 30%;
   border: 1px solid lightblue;
 }
+
 
 h2 {
   border: 1px dotted lightgrey;
@@ -32,6 +35,13 @@ section img + p {
   text-align: justify;
 }
 
-h4 ~ p {
+ section h4 ~ p {
   font-weight: bold;
+}
+
+section img + p + p {
+  width: 100%;
+  margin: 0 auto;
+  background-color: darkgrey;
+  color: yellow;
 }
